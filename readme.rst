@@ -4,7 +4,7 @@ O que é Vinibet?
 
 Vinibet é uma aplicação em PHP que servirá de instrumento facilitador para o Trabalho de Conclusão de Curso. Está sendo construída com o 
 objetivo de ser a ferramenta para coletar dados estatísticos de partidas de futebol, sendo eles:
-1. Quantidade de ataques ao bloco avançado do adversário;
+1. Quantidade de ataques ao bloco avançado do adversário;\n
 2. Quantidade de ataques ao bloco médio do adversário;
 3. Quantidade de ataques ao bloco recuado do adversário;
 4. Quantidade de ataques ao bloco desfeito do adversário;
