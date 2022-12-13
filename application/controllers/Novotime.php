@@ -47,7 +47,7 @@ class Novotime extends CI_Controller {
 		    $tecnicodata['tecnico_id'] = $tecnicoaux['tecnico_id'];
     		$tecnicodata['tecnico_nome'] = $tecnicoaux['tecnico_nome'];
     		$tecnicodata['tecnico_time'] = $lastinsert['time_id'];
-    		$tecnicodata['tecnico_status'] = 1;
+    		$tecnicodata['tecnico_status'] = 0;
     		
     		if($tecnico->update($tecnicodata)){
     	        redirect(base_url('times'));

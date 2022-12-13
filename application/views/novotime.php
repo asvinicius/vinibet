@@ -18,7 +18,7 @@
                 </select>
             </div>
             <div class="col-md-6">
-                <label for="inputliga" class="form-label">Liga</label>
+                <label for="inputliga" class="form-label">Tecnico</label>
                 <select id="inputliga" class="form-select"  name="time_tecnico">
                     <option value="0" selected> --- </option>
                     <?php foreach($tecnicos as $tecnico){ ?>

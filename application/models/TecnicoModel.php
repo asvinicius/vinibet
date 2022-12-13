@@ -48,7 +48,7 @@ class TecnicoModel extends CI_Model{
     
     public function listingfree(){
         $this->db->select('*');
-        $this->db->where("tecnico_status", 0);
+        $this->db->where("tecnico_status", 1);
         $this->db->order_by("tecnico_nome", "asc");
         return $this->db->get("tecnico")->result();
     }
