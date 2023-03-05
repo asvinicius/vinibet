@@ -20,5 +20,5 @@ Informações das versões
 *******************
 
 1.0.0 - Apenas arquivos iniciais incluídos, com models, views e controllers para as tabelas a serem utilizadas;
-*******************
+
 1.0.1 - Funcionalidades de adicionar técnicos, ligas e times já inseridas;

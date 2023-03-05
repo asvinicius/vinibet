@@ -25,6 +25,12 @@
                     Times
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('acoes'); ?>">
+                    <span data-feather="bar-chart-2" class="align-text-bottom"></span>
+                    Ações
+                </a>
+            </li>
             <!--
             <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -38,12 +44,7 @@
                     Products
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <span data-feather="bar-chart-2" class="align-text-bottom"></span>
-                    Reports
-                </a>
-            </li>
+            
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <span data-feather="layers" class="align-text-bottom"></span>

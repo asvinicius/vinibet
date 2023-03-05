@@ -81,6 +81,14 @@ class ActionModel extends CI_Model{
         }
     }
     
+    public function listing(){
+        $this->db->select("*");
+		$this->db->join('time as th', 'act_casa=th.time_id', 'inner');
+		$this->db->join('time as ta', 'act_fora=ta.time_id', 'inner');
+        $this->db->order_by("act_id", "desc");
+        return $this->db->get("action")->result();
+    }
+    
     public function listingall($time_id){
         $this->db->where("act_casa", $time_id);
         $this->db->or_where("act_fora", $time_id);
